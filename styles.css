@@ -1,0 +1,45 @@
+body {
+	font-family: Roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-bar {
+	display: flex;
+}
+
+.main-content {
+	display: flex;
+}
+
+.body-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.hitlist {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+}
+
+.end {
+	display: flex;
+}
+
+.cta {
+	display: flex;
+}
+
+.cta-test {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer {
+	display: flex;
+}
