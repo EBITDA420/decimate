@@ -2,19 +2,43 @@ body {
 	font-family: Roboto, sans-serif;
 	display: flex;
 	flex-direction: column;
+	margin: 0;
+	background-color: #790181;
+	color: #eee8e8;
 }
 
 .nav-bar {
 	display: flex;
+	padding: 8px 64px;
+}
+
+a {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.home-page {
+	margin-right: auto;
+	font-size: 24px;
+	color: #F9FAF8;
 }
 
 .main-content {
+	margin-top: 16px;
 	display: flex;
+	justify-content: center;
+	padding: 64px;
 }
 
 .body-list {
 	display: flex;
 	flex-direction: column;
+	background-color: #eee8e8;
+	color: #000000;
+}
+
+iframe {
+	flex: none;
 }
 
 .hitlist {
@@ -25,6 +49,7 @@ body {
 .quote {
 	display: flex;
 	flex-direction: column;
+	background-color: #604c4c;
 }
 
 .end {
