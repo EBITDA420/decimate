@@ -3,31 +3,63 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	background-color: #790181;
+	background-color: #390277;
 	color: #eee8e8;
 }
 
 .nav-bar {
 	display: flex;
-	padding: 8px 64px;
+	padding: 26px 264px;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.nav-links {
+	margin-left: auto;
+}
+
+.nav-link-two,
+.nav-link-three {
+	margin-left: 24px;
 }
 
 a {
 	font-size: 18px;
 	color: #E5E7EB;
+	text-decoration: none;
 }
 
 .home-page {
-	margin-right: auto;
 	font-size: 24px;
 	color: #F9FAF8;
 }
 
 .main-content {
-	margin-top: 16px;
+	margin-top: 8px;
 	display: flex;
 	justify-content: center;
-	padding: 64px;
+	padding: 100px 264px;
+}
+
+.heading-info {
+	margin-right: 32px;
+}
+
+.main-header {
+	font-size: 48px;
+}
+
+.subheader {
+	font-size: 18px;
+}
+
+.sign-up {
+	border-radius: 10px;
+	font-size: 18px;
+	background-color: #a70000;
+	color: #eee8e8;
+	font-weight: bold;
+	padding: 8px 24px;
 }
 
 .body-list {
