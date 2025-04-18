@@ -1,3 +1,6 @@
+
+/* Body start */
+
 body {
 	font-family: Roboto, sans-serif;
 	display: flex;
@@ -5,7 +8,12 @@ body {
 	margin: 0;
 	background-color: #390277;
 	color: #eee8e8;
+	font-size: 28px;
 }
+
+/* Body end */
+
+/* Navigation bar start */
 
 .nav-bar {
 	display: flex;
@@ -34,6 +42,10 @@ a {
 	color: #F9FAF8;
 }
 
+/* Navigation bar end */
+
+/* Main content start */
+
 .main-content {
 	margin-top: 8px;
 	display: flex;
@@ -50,17 +62,25 @@ a {
 }
 
 .subheader {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .sign-up {
-	border-radius: 10px;
+	border-radius: 12px;
 	font-size: 18px;
 	background-color: #a70000;
 	color: #eee8e8;
 	font-weight: bold;
 	padding: 8px 24px;
 }
+
+iframe {
+	flex: none;
+}
+
+/* Main content end */
+
+/* Hitlist start */
 
 .body-list {
 	display: flex;
@@ -69,27 +89,66 @@ a {
 	color: #000000;
 }
 
-iframe {
-	flex: none;
+.hitlist-header,
+.text.subheadder {
+	text-align: center;
 }
 
 .hitlist {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	gap: 16px;
+	padding: 8px 264px;
 }
+
+.hitlist-box {
+	border-radius: 8px;
+	border-color: #ECBE07;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 350px;
+	font-size: 24px;
+	padding: 16px;
+	margin: 16px;
+}
+
+/* Hitlist end */
+
+/* Quote start */
 
 .quote {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	background-color: #604c4c;
+	padding: 16px 264px;
 }
 
-.end {
+.quote-text {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* Quote end */
+
+/* End start */
+
+.end {
+	background-color: #eee8e8;
+	display: flex;
+	justify-content: center;
+	padding: 16px 264px;
 }
 
 .cta {
 	display: flex;
+	align-items: center;
+	background-color: #390277;
+	border-radius: 10px;
+	padding: 32px 100px;
+	gap: 16px;
 }
 
 .cta-test {
@@ -97,6 +156,27 @@ iframe {
 	flex-direction: column;
 }
 
+.sign-up-bot {
+	background-color: #390277;
+	border-color: #eee8e8;
+	color: #eee8e8;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px 24px;
+}
+
+/* End end */
+
+/* Footer start */
+
 .footer {
 	display: flex;
+	justify-content: center;
+	background-color: #eee8e8;
+	color: #000000;
+	padding: 16px;
+	font-size: 18px;
 }
+
+/* Footer end */
